@@ -10,7 +10,7 @@ The `ListDirectory` tool allows you to recursively list the contents of a direct
 ## Example Usage
 
 ```python
-from gofannon.tools.list_directory import ListDirectory
+from gofannon.file.list_directory import ListDirectory
 
 tool = ListDirectory()
 result = tool.fn(
