@@ -9,7 +9,7 @@ The `ReadFile` tool allows you to read the contents of a specified file from the
 ## Example Usage
 
 ```python
-from gofannon.tools.read_file import ReadFile
+from gofannon.file.read_file import ReadFile
 
 tool = ReadFile()
 result = tool.fn(
